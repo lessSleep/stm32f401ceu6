@@ -1,0 +1,24 @@
+{
+    "cmake.buildBeforeRun": true,
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    
+    "cmake.configureEnvironment": {
+        "PICO_SDK_PATH": "${workspaceRoot}/../pico-sdk"
+    },
+    "cmake.buildEnvironment": {
+        "PICO_SDK_PATH": "${workspaceRoot}/../pico-sdk"
+    },
+    "cmake.environment": {
+        "PICO_SDK_PATH": "${workspaceRoot}/../pico-sdk"
+    },
+    
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.configureSettings": {
+        "CMAKE_MAKE_PROGRAM": "C:\\msys64\\mingw64\\bin\\mingw32-make.exe"
+    },
+    "files.associations": {
+        "stdlib.h": "c",
+        "stdio_usb.h": "c",
+        "usbh_core.h": "c"
+    }
+}
